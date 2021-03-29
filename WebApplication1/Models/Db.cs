@@ -83,6 +83,7 @@ namespace WebApplication1.Models
 
                     }
                 }
+                reader.Close();
             }
             return message;
         }
@@ -121,6 +122,7 @@ namespace WebApplication1.Models
 
                     }
                 }
+                reader.Close();
             }
             return message;
         }
@@ -159,6 +161,7 @@ namespace WebApplication1.Models
 
                     }
                 }
+                reader.Close();
             }
             return message;
         }
@@ -197,6 +200,7 @@ namespace WebApplication1.Models
 
                     }
                 }
+                reader.Close();
             }
             return message;
         }
@@ -235,6 +239,7 @@ namespace WebApplication1.Models
 
                     }
                 }
+                reader.Close();
             }
             return message;
         }
